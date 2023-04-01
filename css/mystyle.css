@@ -1,5 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+@media  only screen and (max-width:700px) {
+	
+.img-title{
+		font-size:20px !important ;
+		color:#333333;
+	}
+.img-text{
+		font-size:20px !important ;
+		color:#223645;
+	}
+.img-body{
+	    padding-top: 5px ;
+		font-size:15px !important ;
+		color:#494949;
+}
+  }
+
+
 body{
 	font-family: 'Poppins', sans-serif;
 	overflow-x:hidden;
@@ -23,21 +44,24 @@ body{
 .nav.navbar-nav .nav-link{
 	border:2px solid transparent;
 	padding: 10px 0px;
-	margin: 0px 15px;
+	margin: 0px 15px
 }
 .nav-link:hover{
 	border-bottom:2px solid red;
 	background:transparent!important;	
 }
+.banner_section{
+	padding-top:5% ;
+}
 .doctor-img{
 	position:absolute;
-	padding-top:0px;
-	padding-left:0px;
+	background-size: auto;
+	height: 25%;
+	width: 100%;
 }
 .img-title{
 	font-size:50px;
 	color:#333333;
-	padding-top:20px;
 }
 .img-text{
 	font-size:50px;
@@ -124,7 +148,6 @@ body{
 .hr1{
 	background-color:#223645;
 	color:white
-	padding:0px!important;
 }
 
 #nav{
@@ -143,21 +166,11 @@ a{
 #navigation-bar{
 	margin:left;
 }
-#mx{
-      responsive: true,
-      property: margin-bottom,
-      class: mb,
-      values: $negative-spacers;
-}
+
 #color{
 	font-size:50px;
 	color:#223645;
 }
-
-.img-fluid{
-	max-width:100%;
-}
-
 #size{
 	font-size:24px;
 
@@ -169,10 +182,6 @@ a{
   right: 80%;
  
 }
-.img-fluid{
-	 max-width: 100%;
-}
-
 a:hover{
 	background-color:red;
 }
@@ -251,4 +260,7 @@ ul.social-icon li{
 	text-align:right;
 	padding-bottom:30px;
 	padding-top:30px;
+}
+.all_services{
+	background-color: #d9edf7;
 }
