@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -23,15 +22,16 @@
 		<div class="col-lg-1"></div>
 		<div class="col-lg-3 "><p class="welcome-class" >welcome to clinic</p></div>
 
-		<div class="col-lg-5 nav navbar-nav navbar-right" id="text-margin">
-			<ul class="nav navbar-nav navbar-right">
-				<li  class="link"><a  href="#"><span class="glyphicon glyphicon-earphone" ></span> 9876543210</a></li>
-				<li class="link"><a href="#"><span class="glyphicon glyphicon-time"></span> mon-fir:9:00AM-5:00 PM</a></li>
-				<li class="link"><a href="#"><span class="glyphicon glyphicon-envelope"></span>OFFICE@EXAMPLE.COM</a></li>
+		<div class="col-lg-5  navbar-right" id="text-margin">
+			<ul class="nav navbar-nav ">
+				<li  class="link"><p><span class="glyphicon glyphicon-earphone" ></span>  9876543210</p></li>
+				<li class="link"><p><span class="glyphicon glyphicon-time"></span>  mon-fir:9:00AM-5:00 PM</p></li>
+				<li class="link"><p><span class="glyphicon glyphicon-envelope"></span>  OFFICE@EXAMPLE.COM</p></li>
 
 			</ul>
 		</div>
-		<div class="col-lg-3"></div>
+		<div class="col-lg-3"> 
+		</div>
 	</div >
 	</div>
 	
@@ -39,44 +39,41 @@
 	<div class="col-lg-12 hr">  
 		<hr>
 	</div>
-	
-	<div  class="row"> 
-		<div class="col-lg-1"></div>
-
-	<div class= "main-nav">
-		<div class="col-sm-2 ">
-			<div class="span">
-		     <span  style="color:#e12453;"><b>Health</b></span>clinic 
-            </div>
-		 </div> 
-		<div id="navigation-bar">
-			<div class="col-md-8">
-				<ul class="nav navbar-nav navbar-right" >
-					<li ><a class="nav-link" href="#">Home</a></li>
-					<li><a class="nav-link"  href="#">About us</a></li>
-					<li><a class="nav-link" href="#">Services</a></li>
-					<li><a class="nav-link" href="#">Doctor</a></li>
-					<li><a class="nav-link"href="#">Popular procedures</a></li>
-					<li><a class="nav-link" href="#">Price</a></li>
-					<li><a class="nav-link" href="#">Blog</a></li>
-					<li><a class="nav-link" href="#">Contact Us</a></li>
-				</ul>
-			</div>
-	     </div>
-    </div>
-		<div class="col-sm-1">
-		</div>  
-	</div>
+	<div class="container">
+	  <div  class="row"> 
+	      <div class= "main-nav">
+		         <div class="col-lg-2 ">
+			          <div class="span">
+		                   <span  style="color:#e12453;"><strong>Health</strong></span>clinic 
+                       </div>
+		            </div> 
+					<div class="col-lg-2"></div>  
+		
+			    <div class="col-lg-8">
+				    <ul class="nav navbar-nav navbar-right" >
+					        <li><a href="#" class="home_nav">Home</a></li>
+					        <li><a href="#">About us</a></li>
+				         	<li><a href="#">Services</a></li>
+					       <li><a href="#">Doctor</a></li>
+					       <li><a href="#">Popular procedures</a></li>
+					       <li><a href="#">Price</a></li>
+					      <li><a href="#">Blog</a></li>
+					     <li><a href="#">Contact Us</a></li>
+				    </ul>
+			   </div>
+	      </div>
+     </div>
+	</div> 
 	<div>
 
-		<img src="img/h2-slider-2.jpg" class="img-fluid doctor-img">
+		<img src="img/h2-slider-2.jpg" class="doctor-img">
 
 		<section class="banner_section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
 						<p class="img-title">committed to</p>
-						<strong class="img-text">trusted health care</strong>
+						<h2 class="img-text">trusted health care</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -89,14 +86,29 @@
 	</div>
 
 	<div class="all_services">
-		<div class="row">
-			<div class="text-center doctor-services">
-				<p class="ser-text">OUR SERVICES</p>
-				<p class="font"><b>Managed healthcare services</b></p><br>
-				<p class="ser-body">Upon request, HealSoul Health Services staff will provide instructions for individuals<br> whose medicial conditions need special attention and additional certificates</p>
+		<div class="container">
+    		<div class="row">
+    			<div class="col-lg-2"></div>
+    			<div class="col-lg-7">
+    			  <div class="doctor-services">
+    		    		  <p class="ser-text">OUR SERVICES</p>
+    		    	</div>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-2"></div>
+    			<div class="col-lg-7 ">
+    			    <p class="font"><strong>Managed healthcare services</strong></p>
+    		    </div>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-2"></div>
+    			<div class="col-lg-7">
+    		    		<p class="ser-body">Upon request, HealSoul Health Services staff will provide instructions for individuals 
+    		    			whose medicial conditions need special attention and additional certificates</p>
+    			</div>
 			</div>
 		</div>
-
 		<div class="container">
 			<div class="row all-card">
 
@@ -224,16 +236,15 @@
 	  </div>
 	<div class="col-lg-5"> 
       <ul class="social-icon all-icon">
-        <li  class="fa fa-facebook m-2"></li>   
-        <li class="fa fa-twitter m-2"></li>
-        <li class="fa fa-google-plus m-2"></li>   
-        <li class="fa fa-youtube m-2"></li>   
+       <li class="fa fa-facebook"></li></a>   
+        <li class="fa fa-twitter"></li>
+        <li class="fa fa-google-plus"></li>   
+        <li class="fa fa-youtube"></li>   
       </ul>   
 	</div >
 	<div class="col-lg-1"> </div>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
 </body>
 </body>
 </html>
